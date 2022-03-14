@@ -38,12 +38,12 @@ const animals = [
   }
 ];
 
-function AnimalComponet(props) {
+function AnimalComponet(content) {
   return (
     <div>
-      <h2>{props.name}</h2>
-      <p>{props.number}</p>
-      <p>{props.eats.join(", ")}</p>
+      <h2>{content.name}</h2>
+      <p>{content.number}</p>
+      <p>{content.eats.join(" | ")}</p>
     </div>
   );
 }
