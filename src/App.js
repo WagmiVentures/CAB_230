@@ -41,7 +41,7 @@ const animals = [
 function AnimalComponet(content) {
   return (
     <div>
-      <h2>{content.name}</h2>
+      <h2>{content.name + " hello"}</h2>
       <p>{content.number}</p>
       <p>{content.eats.join(" | ")}</p>
     </div>
